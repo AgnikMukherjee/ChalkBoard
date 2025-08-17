@@ -1,0 +1,75 @@
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Node.js (Backend + Frontend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.* 
+!.env.example
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+out/
+tmp/
+temp/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+debug.log
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Coverage / Test
+# =========================
+coverage/
+*.lcov
+.nyc_output/
+
+# =========================
+# IDEs and editors
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej

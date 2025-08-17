@@ -1,0 +1,1 @@
+export const pickRandom = (arr) => arr[Math.floor(Math.random()*arr.length)]; export const randomBool = () => Math.random()>0.25;
