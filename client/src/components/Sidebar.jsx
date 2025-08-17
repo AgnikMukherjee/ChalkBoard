@@ -13,7 +13,7 @@ export default function Sidebar({ mobile=false, open=false, onClose }) {
       </div>
       <nav className="p-3 space-y-1 overflow-y-auto">
         {['/dashboard','/students','/add-student'].map((path, i) => {
-          const label = ['Overview', 'Students', 'Add Student'][i]
+          const label = ['Dashboard', 'Students', 'Add Student'][i]
           return (
             <NavLink key={path}
               to={path}

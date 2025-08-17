@@ -23,7 +23,7 @@ export default function Navbar({ onMenu }) {
 
         {/* Greeting */}
         <div className="text-sm text-slate-600 hidden sm:block">
-          Hello Chris!
+          Hello Admin!
         </div>
 
         {/* Logout button */}
