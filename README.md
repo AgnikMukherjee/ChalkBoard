@@ -1,17 +1,17 @@
 # 📚 Student Management Dashboard
 
 A responsive student management dashboard built with **React + TailwindCSS**.  
-It includes authentication, global search, sorting, and pagination for student records.  
+It includes authentication, global search, sorting, and adding new data for student records.  
 
 ---
 
 ## 🚀 Features
-- 📊 Student list with sorting & filtering  
-- 🔍 Global and per-page search  
+- 📈Insighful dashboard
+- 📊 Student list with sorting & filtering
+- ✒Can add new stident data   
 - 📱 Responsive layout with sidebar + navbar  
 - 🌓 Modern UI with TailwindCSS  
-- 🔑 Authentication context (login/logout)  
-- ⏩ Client-side pagination  
+- 🔑 Authentication context (login/logout)
 
 ---
 
@@ -19,19 +19,7 @@ It includes authentication, global search, sorting, and pagination for student r
 - **Frontend:** React, TailwindCSS  
 - **State Management:** React Context API  
 - **Icons & UI:** Custom Components + Tailwind  
-- **Build Tool:** Vite / CRA (depending on setup)  
-
----
-
-## 📂 Project Structure
-- src/
-- ├─ components/ # Navbar, Sidebar, Card, Badge, etc.
-- ├─ context/ # AuthContext, StudentsContext
-- ├─ layouts/ # MainLayout
-- ├─ pages/ # StudentsList, Dashboard, etc.
-- ├─ App.jsx # Routes setup
-- └─ index.jsx # Entry point
-
+- **Build Tool:** Vite 
 
 ---
 
@@ -39,7 +27,7 @@ It includes authentication, global search, sorting, and pagination for student r
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/student-dashboard.git
+git clone https://github.com/AgnikMukherjee/ChalkBoard.git
 cd student-dashboard
 
 --- 
